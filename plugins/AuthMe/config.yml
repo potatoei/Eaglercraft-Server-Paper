@@ -142,7 +142,7 @@ settings:
         - /totp
         # Max number of allowed registrations per IP
         # The value 0 means an unlimited number of registrations!
-        maxRegPerIp: 0
+        maxRegPerIp: 3
         # Minimum allowed username length
         minNicknameLength: 3
         # Maximum allowed username length
@@ -186,7 +186,7 @@ settings:
         # Should not logged in players be teleported to the spawn?
         # After the authentication they will be teleported back to
         # their normal position.
-        teleportUnAuthedToSpawn: false
+        teleportUnAuthedToSpawn: true
         # Can unregistered players walk around?
         allowMovement: false
         # After how many seconds should players who fail to login or register
