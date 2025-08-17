@@ -186,7 +186,7 @@ settings:
         # Should not logged in players be teleported to the spawn?
         # After the authentication they will be teleported back to
         # their normal position.
-        teleportUnAuthedToSpawn: true
+        teleportUnAuthedToSpawn: false
         # Can unregistered players walk around?
         allowMovement: false
         # After how many seconds should players who fail to login or register
@@ -321,7 +321,7 @@ settings:
     # Should we remove leave messages altogether?
     removeLeaveMessage: false
     # Do we need to add potion effect Blinding before login/register?
-    applyBlindEffect: false
+    applyBlindEffect: true
     # Do we need to prevent people to login with another case?
     # If Xephi is registered, then Xephi can login, but not XEPHI/xephi/XePhI
     preventOtherCase: true
